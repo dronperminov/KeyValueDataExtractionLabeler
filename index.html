@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{title}</title>
+    <link rel="stylesheet" type="text/css" href="/styles/key.css">
+    <link rel="stylesheet" type="text/css" href="/styles/styles.css">
+</head>
+<body>
+    <form class="key-value-labeler" action="/save/{image_src}" method="POST">
+        <div class="image">
+            <img src="/images/{image_src}">
+        </div>
+
+        <div class="inputs">
+            <div class="keys">
+                {keys}
+            </div>
+
+            <div class="centered">
+                <input type="submit" value="Сохранить">
+            </div>
+        </div>
+    </form>
+</body>
+</html>

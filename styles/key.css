@@ -1,0 +1,52 @@
+.key input[type="text"],
+.key input[type="number"],
+.key input[type="range"],
+.key select,
+.key textarea {
+    box-sizing: border-box;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #808080;
+    padding: 0;
+    background: #fff;
+    font-size: 0.9em;
+}
+
+.key textarea {
+    border: 1px solid #808080;
+    resize: none;
+}
+
+.key input[type="text"]:focus,
+.key input[type="range"]:focus,
+.key input[type="number"]:focus,
+.key select:focus,
+.key textarea:focus {
+    outline: none;
+    border-color: #2196f3;
+}
+
+.key input[type="text"]:hover,
+.key input[type="range"]:hover,
+.key input[type="number"]:hover,
+.key select:hover,
+.key textarea:hover {
+    outline: none;
+    border-color: #2196f3;
+}
+
+input[type="submit"] {
+    background: none;
+    padding: 5px;
+    font-size: 0.9em;
+}
+
+input[type="submit"]:focus {
+    border: 2px solid #ff9800;
+}
+
+input[type="submit"]:hover {
+    border: 2px solid #ff9800;
+    color: #ff9800;
+    cursor: pointer;
+}
